@@ -1,0 +1,479 @@
+ /* <!-- ========== Start Global  ========== --> */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700;800&family=Nunito+Sans:wght@300;400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700;800&family=Nunito+Sans:wght@300;400&family=Poppins:wght@400;500&family=Roboto:wght@300&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 6000px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+:root{
+    --dark-color : #1C1C1C;
+}
+.custom-text-style{
+    font-weight: 300;
+    color: lightslategray;
+    font-size: 14px;
+}
+.custom-bg{
+    background-color: #F7F7F7;
+}
+.dark{
+    color: var(--dark-color);
+}
+.bg-custom{
+    background-color: var(--dark-color);
+}
+.section-head{
+    position: relative;
+    width: fit-content;
+}
+.bg-dotted{
+    background-image:url(../images/dots.png);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+}
+.section-head-style{
+    color: var(--dark-color);
+    font-weight: 900;
+    font-size: 45px;
+}
+/* <!-- ========== End Global  ========== --> */
+/* <!-- ========== Start Landing  ========== --> */
+#home {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#home .layer{
+    background-color: rgba(0,0,0,0.6);
+}
+#home .layer .home-caption h2::after{
+    content: "";
+    font-weight: normal;
+    animation: typing 10s linear infinite ;
+}
+@keyframes typing{
+    1%{
+        content: "L|";
+    }
+    2%{
+        content: "La|";
+    }
+    3%{
+        content: "Lar|";
+    }
+    4%{
+        content: "Larr|";
+    }
+    5%{
+        content: "Larry|";
+    }
+    6%{
+        content: "Larry |";
+    }
+    7%{
+        content: "Larry D|";
+    }
+    8%{
+        content: "Larry Da|";
+    }
+    9%{
+        content: "Larry Dan|";
+    }
+    10%{
+        content: "Larry Dani|";
+    }
+    11%{
+        content: "Larry Danie|";
+    }
+    12%{
+        content: "Larry Daniel|";
+    }
+    13%{
+        content: "Larry Daniels|";
+    }
+    33%{
+        content: "Larry Daniel|";
+    }
+    34%{
+        content: "Larry Danie|";
+    }
+    35%{
+        content: "Larry Dani|";
+    }
+    36%{
+        content: "Larry Dan|";
+    }
+    37%{
+        content: "Larry Da|";
+    }
+    38%{
+        content: "Larry D|";
+    }
+    39%{
+        content: "Larry |";
+    }
+    40%{
+        content: "Larry|";
+    }
+    41%{
+        content: "Larr|";
+    }
+    42%{
+        content: "Lar|";
+    }
+    43%{
+        content: "La|";
+    }
+    44%{
+        content: "L|";
+    }
+    45%{
+        content: "|";
+    }
+    46%{
+        content: "D|";
+    }
+    47%{
+        content: "De|";
+    }
+    48%{
+        content: "Dev|";
+    }
+    49%{
+        content: "Deve|";
+    }
+    50%{
+        content: "Devel|";
+    }
+    51%{
+        content: "Develo|";
+    }
+    52%{
+        content: "Develop|";
+    }
+    53%{
+        content: "Develope|";
+    }
+    54%{
+        content: "Developer|";
+    }
+    64%{
+        content: "Develope|";
+    }
+    65%{
+        content: "Develop|";
+    }
+    66%{
+        content: "Develo|";
+    }
+    67%{
+        content: "Devel|";
+    }
+    68%{
+        content: "Deve|";
+    }
+    69%{
+        content: "Dev|";
+    }
+    70%{
+        content: "De|";
+    }
+    71%{
+        content: "D|";
+    }
+    72%{
+        content: "|";
+    }
+    73%{
+        content: "D|";
+    }
+    74%{
+        content: "De|";
+    }
+    75%{
+        content: "Des|";
+    }
+    76%{
+        content: "Desi|";
+    }
+    77%{
+        content: "Desig|";
+    }
+    78%{
+        content: "Design|";
+    }
+    79%{
+        content: "Designe|";
+    }
+    80%{
+        content: "Designer|";
+    }
+    90%{
+        content: "Designe|";
+    }
+    91%{
+        content: "Design|";
+    }
+    91%{
+        content: "Desig|";
+    }
+    93%{
+        content: "Desi|";
+    }
+    94%{
+        content: "Des|";
+    }
+    95%{
+        content: "De|";
+    }
+    96%{
+        content: "D|";
+    }
+    100%{
+        content: "|";
+    }
+}
+#home .layer .icons .social li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin:0px 10px ;
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/* <!-- ========== End Landing  ========== --> */
+
+/* <!-- ========== Start About   ========== --> */
+#about .container .row .col-lg-4 .img-div .dotted{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/dots.png) repeat;
+    left: -10%;
+    bottom: -10%;
+    z-index: -1;
+}
+
+#about .container .row .col-lg-6 .skills-bar{
+    height: 25px;
+    background-color: #F7F7F7;
+    box-shadow: 1px 2px 5px 1px #E6E6E6 inset;
+    border-radius: 5px;
+    margin: 30px 0px;
+    
+}
+#about .container .row .col-lg-6 .skills-bar .skill-1{
+    background-color:var(--dark-color);
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
+
+}
+#about .container .row .col-lg-6 .skills-bar .skill-2{
+    background-color:var(--dark-color);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+
+
+}
+#about .container .row .col-lg-6 .skills-bar .skill-3{
+    background-color:var(--dark-color);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+#about .container .row .col-lg-6 .btn1{
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#about .container .row .col-lg-6 .btn1:hover{
+    background-color: white;
+    color: var(--dark-color);
+}
+#about .container .row .col-lg-6 .btn2{
+    padding: 5px 25px;
+    background-color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid var(--dark-color);
+    transition: all 0.5s;
+}
+#about .container .row .col-lg-6 .btn2:hover{
+    background-color: var(--dark-color);
+    color: white;
+}
+/* <!-- ========== End About   ========== --> */
+
+/* <!-- ========== Start Services  ========== --> */
+
+#services .container .col .services i{
+    background-color:#EEEEEE ;
+    transition: background-color 0.75s;
+}
+#services .container .col .services:hover i{
+    background-color: #1C1C1C;
+    color: white;
+}
+.nav-pills .nav-link{
+    color: var(--dark-color);
+    font-weight: 700;
+}
+/* <!-- ========== End Services  ========== --> */
+
+/* <!-- ========== Start Portfolio  ========== --> */
+
+#portfolio .nav-pills .nav-link.active{
+    background-color: transparent;
+    color: var(--dark-color);
+    position: relative;
+    /* text-decoration: underline ; */
+}
+#portfolio .nav-pills .nav-link.active::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: var(--dark-color);
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 0.5s;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img .layer{
+    width: 95%;
+    height: 95%;
+    top: 25%;
+    left: 2.5%;
+    opacity: 0;
+    transition: all 0.5s ;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img:hover .layer{
+    top: 2.5%;
+    opacity: 1;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img .from-t{
+    top: 25%;
+    left: 50%;
+    color: var(--dark-color);
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translate(-50% ,-50%);
+}
+#portfolio .container .tab-content .tab-pane .row .col .img:hover .from-t{
+    top: 35%;
+    opacity: 1;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img .from-b{
+    bottom: 25%;
+    left: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translate(-50% ,-50%);
+    margin-top: 20px;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img:hover .from-b{
+    bottom: 35%;
+    opacity: 1;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img .from-b .icon{
+    background-color: var(--dark-color);
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: all 0.5s;
+}
+#portfolio .container .tab-content .tab-pane .row .col .img .from-b .icon:hover{
+    background-color: white;
+    border: 2px solid var(--dark-color);
+    color: var(--dark-color);
+}
+/* <!-- ========== End Portfolio  ========== --> */
+
+/* <!-- ========== Start Clients ========== --> */
+
+#clients .container .carousel .carousel-inner .client img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+}
+#clients .container .carousel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    background-color: #1C1C1C;
+} 
+#clients .container .carousel span{
+    font-size: 12px;
+    font-weight: 500;
+}
+/* <!-- ========== End Clients  ========== --> */
+
+/* <!-- ========== Start Blog  ========== --> */
+
+#blog .container .carousel .carousel-inner .carousel-item .w-75 .row .col-md-12 img{
+    transition: all 0.5s;
+}
+#blog .container .carousel .carousel-inner .carousel-item .w-75 .row .col-md-12:hover img{
+    scale: 1.2;
+}
+#blog .container .carousel .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    background-color: #1C1C1C;
+}
+/* <!-- ========== End Blogs  ========== --> */
+
+/* <!-- ========== Start Contact  ========== --> */
+
+#contact .container .row .col i{
+    transition: all 0.5s;
+    background-color: #F7F7F7;
+}
+#contact .container .row .col i:hover{
+    background-color: var(--dark-color);
+    color: white;
+}
+#contact .container form button{
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: var(--dark-color);
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid var(--dark-color);
+}
+#contact .container form button:hover{
+    background-color: white;
+    color: var(--dark-color);
+    border: 2px solid var(--dark-color);
+}
+/* <!-- ========== End Contact   ========== --> */
